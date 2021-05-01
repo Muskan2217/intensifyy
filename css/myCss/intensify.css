@@ -1,0 +1,298 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#my_navigation {
+  background: none;
+  border: none;
+}
+
+
+#my_navigation .navbar-toggle {
+  display: block;
+  border: none;
+}
+
+#my_navigation .icon-bar{ background-color: #dbdbdb; }
+
+
+#my_navigation .navbar-toggle:hover,
+.my-login-btn:hover,
+.my_btn:hover {
+  background-color: #25a2c3;
+  color: #fff;
+}
+
+#my_navigation a {
+  color: #e95b42;
+  font-weight: 600;
+}
+
+#my_navigation a:hover {
+  color: #25a2c3;
+}
+
+.my_container {
+  padding-right: 30px;
+}
+
+.my-login-btn {
+  margin-top: 15px;
+  border: 1px solid #dbdbdb;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 15px;
+}
+
+.my-login-btn2{
+  display: none;
+}
+
+/*navigation ends here*/
+
+/*banner start*/
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../img/banner.jpg);
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+
+.banner_text {
+  width: 100%;
+  position: relative;
+  top: 30%;
+}
+
+.banner_text h1 {
+  color: #25a2c3;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.banner_text p {
+  color: #837d85;
+  line-height: 1.7;
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+.my_btn {
+  width: 200px;
+  height: 50px;
+  background-color: #e95b42;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+/*banner ends */
+
+/*three section starts*/
+
+.three_section {
+  margin: 70px auto;
+}
+
+.three_section h1 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #25a2c3;
+  margin-bottom: 25px;
+}
+
+.three_section p {
+  font-size: 15px;
+  color: grey;
+  line-height: 1.7;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.text_align {
+  text-align: right;
+}
+
+.three_section img {
+  width: 80%;
+}
+
+/*three section ends*/
+
+/*full_width starts*/
+
+.full_width {
+  width: 100%;
+  margin: 70px auto;
+  background-color: #e95b42;
+  color: #fff;
+}
+
+.full_width .box {
+  margin: 100px auto;
+}
+
+.full_width .box h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.full_width .box p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #d2e1e5;
+  font-weight: lighter;
+  margin: 30px 0;
+}
+
+.full_width .box h6 {
+  font-weight: lighter;
+  color: #d2e1e5;
+}
+
+/*fullwidth section ends*/
+
+/*other three section start*/
+
+.three_section .my_col {
+  border: 1px solid #dbdbdb;
+  padding: 0;
+  
+  margin-left: 5%;
+  border-radius: 2%;
+}
+
+.three_section .my_col img {
+  width: 100%;
+  border-radius: 2% 2% 0 0;
+}
+
+.three_section .my_col p {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.three_section .my_col h1 {
+  padding: 0 15px;
+}
+
+/*other three section ends*/
+
+/*other fullwidth section start */
+
+
+.bottom {
+  width: 100%;
+  margin: 70px auto;
+  background-color: #25a2c3;
+}
+
+.bottom .social {
+  margin: 100px auto;
+  color: #fff;
+}
+
+.bottom .social h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bottom .social h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 30px 0;
+}
+
+.bottom .para {
+  width: 40%;
+  margin: 0 auto;
+  border-top: 1px solid #dbdbdb;
+}
+
+.bottom .para p {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.bottom .social span {
+  color: #e95b42;
+  margin-left: 55px;
+}
+
+/*media query start*/
+@media(min-width:768px) {
+  .navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+  }
+
+  .navbar>.container .navbar-brand-centered,
+  .navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+  }
+
+}
+
+@media(max-width:768px) {
+
+  .my-login-btn{
+    display: none;
+  }
+
+  .my-login-btn2{
+    display: block;
+  }
+
+  .three_section {
+    text-align: center;
+  }
+
+  .three_section .text_align {
+    text-align: center;
+  }
+
+  .three_section img {
+    width: 50%;
+  }
+
+  .three_section .my_col {
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .bottom .social h1 {
+    font-size: 23px;
+  }
+
+  .bottom .social h4 {
+    font-size: 10px;
+  }
+
+  .bottom .social span {
+    margin-left: 25px;
+  }
+
+  .banner_text h1 {
+    font-size: 30px;
+  }
+
+  .banner_text p {
+    font-size: 14px;
+  }
+
+  .my_btn {
+    width: 150px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .my-collapse{ border-top:1px solid #dbdbdb; }
+}
